@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<!DOCTYPE example [<!ENTITY xxe SYSTEM "http://127.0.0.1:8888">]>
+<example index="123">
+   <text>&xxe;</text>
+</example>
